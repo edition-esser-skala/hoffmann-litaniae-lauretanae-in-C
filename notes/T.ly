@@ -19,11 +19,241 @@ KyrieTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 6/8 \autoBeamOff \tempoKyrie
+		R2.*18 %18
+		\mvTr c,4\fE^\tuttiE c8 c4 f8
+		g4. g4 g8 %20
+		a4( c8) h([ c)] d
+		d4. c4 r8
+		R2.
+		r4 c8\fE a4( g8)
+		g4 r8 r4 r8 %25
+		R2.*2
+		r4 c8\fE a4( g8)
+		g4 r8 r4 r8
+		R2.*3 %32
+		d'4.~\pE d8[ h] g
+		fis4. fis
+		g g4 g8 %35
+		c4. c
+		d~ d8[ h] g
+		fis4. fis
+		d\fE d8 r c'
+		h4. a %40
+		a4 r8 r4 r8
+		R2.*2
+		e4.(\pE a4) g8
+		fis\fE d' d c h a %45
+		g4 r8 r4 r8
+		e4.(\pE a4) g8
+		fis\fE d' d c h a
+		g4 r8 r4 r8
+		R2.*10 %59
+		c,4. c4 f8 %60
+		g4. g4 g8
+		a4( c8 h[ c)] d
+		d4. c4 r8
+		R2.
+		r4 c8(\fE a4 g8) %65
+		g4 r8 r4 r8
+		R2.*2
+		r4 r8 r4 d'8(\pE
+		h[ c)] f dis e r %70
+		r a,\fE f d d r
+		r c' a f([ d)] d'
+		d4( c8) h4 r8
+		R2.*2 %75
+		a4\pE a8 d4 c8
+		h4\fE g'8 \appoggiatura g16 f8([ e d)]
+		c4 r8 r4 r8
+		a4\pE a8 d4 c8
+		h4\fE g'8 \appoggiatura g16 f8([ e d)] %80
+		c4 r8 r4 r8
+		R2.*4 %85
+		g8([ h)] e \appoggiatura d16 cis8.([\trill h32 cis)] d8
+		r d d h8.\trill a32([ h)] c8
+		e e e d4 d8
+		r4 e,8 e([ fis16 g a g)]
+		fis8 r d d([ e16 f g f)] %90
+		e4 a8 a([ h16 a)] g8
+		r4 g8 g([ a16 g)] f8
+		f a d h!8.\trillE a32([ h)] c8
+		e e e d4 d8
+		g, h e \appoggiatura d16 cis8.([\trill h32 cis)] d8 %95
+		f! f f e4 e8
+		a, c f \appoggiatura e dis4\trill e8
+		cis4 d8 h h c
+		a4 h8 \appoggiatura a gis4 a8
+		e' e d d4 c8 %100
+		c4 h8 h4 a8
+		a a([ gis)] a4 r8
+		R2.*6 %108
+		c,8([ e)] a \appoggiatura g16 fis8.([\trill e32 fis)] g8
+		r g g g([ a16 g)] fis8 %110
+		r f f f([ g16 f)] e8
+		e e e d4 d8
+		r4 e'8~ e[ f16 e] d8
+		r4 \once \tieDashed d8~ d[ e16 d] c8
+		r e e d4 d8 %115
+		d d d c4 c8
+		c c c h4 h8
+		h h h a4 a8
+		a a a g4.
+		g4 r8 r4 r8 %120
+		g4. g
+		g g4 g8
+		g4. g
+		as as
+		fis fis4 fis8 %125
+		g4 g8 f e!([ d)]
+		e4 r8 r4 c'16 c
+		c4 c8 c4 c8
+		c c c c4 c8
+		a([ c)] h a([ h c)] %130
+		h d c h([ d c]
+		h[ d c)] h4 r8
+		R2.*2
+		r4 g8 h e cis %135
+		d([ h)] c e4 d8
+		d4 e8 c c([ h)]
+		c4 r8 r4 r8
+		r4 c8 a4( g8)
+		g4 r8 r4 r8 %140
+		R2.*2
+		r4 c8\fE a4( g8)
+		g4. c
+		c c %145
+		c( d)
+		d2.\fermata
+		c,8 e a fis8.([\trill e32 fis)] g8
+		f'!8.([ e16 d c] h4) c8
+		f^\critnote e([ d)] e4 r8 %150
+		R2.
+		f8.([ e16 d c)] h4.
+		h4~ h16[ c] d4.
+		d4~ d16[ c] h4 c8
+		c4.( d) %155
+		c c
+		c( h)
+		c4 r8 r4 r8\fermata \bar "|." %158 FINIS
 	}
 }
 
 KyrieTenoreLyrics = \lyricmode {
+	Ky -- ri -- e e -- %19
+	lei -- son, e -- %20
+	lei -- son, e --
+	lei -- son.
 
+	E -- lei --
+	son, %25
+
+	e -- lei -- %28
+	son.
+
+	Chri -- ste, %33
+	au -- di,
+	Chri -- ste, ex -- %35
+	au -- di,
+	Chri -- ste,
+	au -- di,
+	Chri -- ste, ex --
+	au -- di %40
+	nos,
+
+	Chri -- ste,
+	au -- di nos, ex -- au -- di %45
+	nos,
+	Chri -- ste,
+	au -- di nos, ex -- au -- di
+	nos.
+
+	Pa -- ter de %60
+	coe -- lis, de
+	coe -- lis,
+	De -- us,
+
+	\xE De -- %65
+	us. \x
+
+	Mi -- %69
+	se -- re -- re, %70
+	u -- nus De -- us,
+	mi -- se -- re -- re
+	no -- bis,
+
+	mi -- se -- re -- re %76
+	no -- bis, no --
+	bis,
+	mi -- se -- re -- re
+	no -- bis, no -- %80
+	bis.
+
+	San -- cta De -- i, %86
+	De -- i Ge -- ni -- trix,
+	o -- ra pro no -- bis,
+	pro no --
+	bis, pro no -- %90
+	bis, pro no -- bis,
+	pro no -- bis,
+	ma -- ter pu -- ris -- si -- ma,
+	o -- ra pro no -- bis,
+	in -- vi -- o -- la -- ta, %95
+	o -- ra pro no -- bis,
+	ma -- ter in -- vi -- o --
+	la -- ta, ma -- ter in --
+	te -- me -- ra -- ta,
+	o -- ra pro no -- bis, %100
+	o -- ra, o -- ra
+	pro no -- bis.
+
+	Ma -- ter, ma -- ter %109
+	Cre -- a -- to -- ris, %110
+	Sal -- va -- to -- ris,
+	o -- ra pro no -- bis,
+	o -- ra,
+	o -- ra,
+	o -- ra, o -- ra, %115
+	o -- ra pro no -- bis,
+	o -- ra pro no -- bis,
+	o -- ra pro no -- bis,
+	o -- ra pro no --
+	bis, %120
+	o -- ra,
+	o -- ra pro
+	no -- bis,
+	o -- ra,
+	o -- ra pro %125
+	no -- bis, pro no --
+	bis, spe -- cu --
+	lum iu -- sti -- ti --
+	ae, se -- des sa -- pi --
+	en -- ti -- ae, __ %130
+	o -- ra pro no --
+	bis,
+
+	pro no -- bis, pro %135
+	no -- bis, o -- ra,
+	o -- ra pro no --
+	bis,
+	pro no --
+	bis, %140
+
+	pro no -- %143
+	bis, o --
+	ra pro
+	no --
+	bis,
+	o -- ra pro no -- bis,
+	o -- ra
+	pro no -- bis, %150
+
+	o -- ra,
+	o -- ra,
+	o -- _ ra,
+	o -- %155
+	ra pro
+	no --
+	bis. %158 finis
 }
 
 % TenoreNotes = {
