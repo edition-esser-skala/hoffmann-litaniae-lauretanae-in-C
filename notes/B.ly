@@ -243,6 +243,197 @@ KyrieBassoLyrics = \lyricmode {
 	bis. %158 finis
 }
 
+CausaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \autoBeamOff \tempoCausa
+		\mvTr f,4\fE^\tuttiE f r2
+		c'4 c r2
+		f4 f, r2
+		r8 c' c4 f8 r r4
+		r8 c c4 f8 r r4 %5
+		r8 d d d e([ d16 e)] f8 e
+		d c b a g a16([ b)] c4
+		f, r r2
+		R1*6 %14
+		c'4 r r2 %15
+		g'4 g r2
+		c4 c, r2
+		r8 g' g4 c8 r r4
+		r8 g g4 c,8 r r4
+		r8 a' a a h([ a16 h)] c8 h %20
+		a g f e d e16([ f)] g4
+		c, r r2
+		R1*6 %28
+		d4 r r r8 d
+		a'4 a, r r8 a' %30
+		d4 d, r2
+		r8 a' a4 d r
+		r8 a, a4 d8 d' d d
+		d4 d cis d
+		r r8 g, a4( a,) %35
+		d4 r r2
+		R1*6 %42
+		f,4^\critnote f r2
+		c'8. c16 c4 r r8 c
+		f8. f,16 f4 r2 %45
+		c'2 f4 r
+		c2 f4 r
+		r c' d( a)
+		b r r d
+		e( h) c r %50
+		r g a( e)
+		f g a( e)
+		f e f( e)
+		f a8([ g)] f e d([ c)]
+		b4 b'8([ a)] g f e([ d)] %55
+		c4 c'8 b a g f([ e)]
+		d4 d'8([ c)] b a g([ f)]
+		e4 f e f
+		b1
+		a8 b c([ c,)] f4 r %60
+		e\p f e f
+		b1
+		a8\f e f e f b c([ c,)]
+		f4 r r2
+		R1*3 %67
+		\key f \minor R1*4 %71
+		f2 f4 f8 f
+		e1
+		f4 r r2
+		f1 %75
+		es?2. es4
+		des4 r r2
+		b2. b4
+		es1
+		as,4 r r2 %80
+		R1
+		r2 b'4( des,)
+		c r8 as des4. des8
+		es2 as4 r8 as,
+		des4. des8 es2 %85
+		as,4 r r2
+		R1*3
+		as'2. as4 %90
+		g1
+		as4 r r2
+		as2. as4
+		a1
+		b4 r r2 %95
+		b2. b4
+		h1
+		c2 e,
+		f4. f8 g2
+		e f4 f %100
+		d2 e
+		f( h,)
+		c g'4 f
+		b! as! r2
+		R1 %105
+		r2 g4( b,)
+		as r r8 b c4
+		f r r2
+		R1
+		r2 r8 b,\pE c4 %110
+		f4 r r8 b, c4
+		f8 b c4 f,8 b, c4
+		f, r r2\fermata \bar "|." %113 finis
+	}
+}
+
+CausaBassoLyrics = \lyricmode {
+	Cau -- sa,
+	cau -- sa,
+	cau -- sa,
+	pro no -- bis,
+	pro no -- bis, %5
+	o -- ra pro no -- bis, o --
+	ra, o -- ra, o -- ra pro no --
+	bis.
+
+	Vas, %15
+	o -- ra
+	o -- ra
+	pro no -- bis,
+	pro no -- bis,
+	o -- ra pro no -- bis, o -- %20
+	ra, o -- ra, o -- ra pro no --
+	bis.
+
+	Vas, in -- %29
+	si -- gne, in -- %30
+	si -- gne,
+	pro no -- bis,
+	pro no -- bis, o -- ra pro
+	no -- bis, o -- ra
+	pro no -- %35
+	bis.
+
+	Ro -- sa %43
+	my -- sti -- ca, Da --
+	vi -- di -- ca, %45
+	o -- ra,
+	o -- ra,
+	pro no --
+	bis, pro
+	no -- bis, %50
+	pro no --
+	bis, pro no --
+	bis, pro no --
+	bis, foe -- de -- ris ar --
+	ca, ia -- nu -- a coe -- %55
+	li, stel -- la ma -- tu -- ti --
+	na, o -- ra pro no --
+	bis, pro no -- bis,
+	o --
+	ra pro no -- bis, %60
+	o -- ra, o -- ra,
+	o --
+	ra, o -- ra, o -- ra pro no --
+	bis.
+
+	Sa -- lus in -- fir -- %72
+	mo --
+	rum,
+	re -- %75
+	fu -- gi --
+	um
+	pec -- ca --
+	to --
+	rum, %80
+
+	o --
+	ra pro no -- bis,
+	o -- ra pro
+	no -- bis, o -- %85
+	ra.
+
+	Con -- so -- %90
+	la --
+	trix
+	af -- fli --
+	cto --
+	rum, %95
+	af -- fli --
+	cto --
+	rum, au --
+	xi -- li -- um
+	Chri -- sti -- a -- %100
+	no -- rum,
+	o --
+	ra, o -- ra,
+	o -- ra,
+	%105
+	o --
+	ra pro no --
+	bis,
+
+	pro no -- %110
+	bis, pro no --
+	bis, pro no -- bis, pro no --
+	bis. %113 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -135,3 +135,118 @@ KyrieTromboneII = {
 		c4 r8 r4 r8\fermata \bar "|." %158 FINIS
 	}
 }
+
+CausaTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 4/4 \tempoCausa
+		c,4\fE c r8 c c c
+		c4 c r8 c c c
+		c4 c r2
+		r8 c' c4 c8 r r4
+		r8 c c4 c8 r r4 %5
+		r8 g g g g4 a8 r
+		r4 r8 c c c c4
+		c\pE c r8 c c c
+		c4 c r8 c c c
+		c4 c r2 %10
+		r8 c, c c f4 r
+		r8 c c c f f f f
+		f2 c4 c8 c
+		c2 g'8 g g4
+		g4\fE r r8 g g g %15
+		g4 g r8 g g g
+		g4 g r2
+		r8 g g4 g8 r r4
+		r8 g g4 g8 c c c
+		c2 g4.( a16 h) %20
+		c8 h a g f e e d
+		c4\pE c r8 g' g g
+		g4 g r8 g g g
+		g4 g r2
+		r8 g g g c4 r %25
+		r8 g g g c, c' c c
+		c2~ c8 a a a
+		a4 r8 g a4 a8 a
+		a4\fE r r8 a a a
+		a4 a r8 a a a %30
+		a4 a r2
+		r8 a a4 a8 r r4
+		r8 a a4 a8 r r4
+		r8 h h h a4 a
+		r4 r8 b a2 %35
+		a4\pE a r8 a a a
+		a4 a r8 a a a
+		d4 d r2
+		r8 a a a d4 r
+		r8 a a a d, d' d d %40
+		d2 d~
+		d8 c c c c2
+		c4\fE c r8 c4 c8
+		c4 c r8 c c c
+		c4 c r2 %45
+		c2 c4 r
+		c2 c4 r
+		r es d es
+		d r r f
+		e! f e8 c c c %50
+		c2 c
+		c c4 c
+		c2 c
+		f,8 g a a b c d4
+		g,8 a b b c d e4 %55
+		a,8 b c c d e f4
+		b,8 c d d e f g4
+		c,2 c
+		d2. c4
+		c8 d c4 c r %60
+		b\p a b a
+		g1
+		a8\f g a g a b16 g f8 e
+		f4 r r2
+		R1*3 %67
+		\key f \minor f'4\pE r r8 f f f \noBreak
+		g4 r r8 g g g
+		f2 g %70
+		f4 r r8 b, c4
+		c\fE r r8 c c c
+		c4 r r8 c c c
+		c2 c
+		c4 r r8 c c c %75
+		c4 r r8 f, f f
+		f2 f
+		f4 r r8 f f f
+		b4 r r8 es, es es
+		es2 es %80
+		es4 r r2
+		R1
+		as2 as
+		as4 g as as
+		as2 as4 es %85
+		es r r8 as\pE as as
+		b4 r r8 b b b
+		as4 r as2
+		as4 as as es
+		es\fE r r8 es es es %90
+		es4 r r8 es es es
+		es2 es
+		es4 r r8 es es es
+		f4 r r8 f f f
+		f2 f %95
+		f4 r r8 f f f
+		g4 r r8 g g g
+		g2 c
+		c1
+		c %100
+		c
+		c2 d
+		c2 e,4 f
+		f as r2
+		R1*4 %108
+		r2 f'4\pE b,
+		as r r8 b c4 %110
+		c r r8 b c4~
+		c8 b c4~ c8 b c4~
+		c as as r\fermata \bar "|." %113 finis
+	}
+}

@@ -167,6 +167,126 @@ KyrieViolinoI = {
 	}
 }
 
+CausaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoCausa
+		<f a,>4\f q r8 f g a
+		a4\trill g r8 g a b
+		b4\trill a r8 c b a
+		g4.( a16 b) a8 a g f
+		e4.( f16 g) f8 r r4 %5
+		r8 h h h c b \appoggiatura b16 a8 g16 a
+		b8 a g f e f f e
+		f16\p f' e d c b a g << { f4 r } \\ { f8 c c c } >>
+		c16 c' h a g f e d << { c4 r } \\ { c8 c c c } >>
+		f16 f' e d c b a g f4 r  %10
+		g2( a4) r
+		<< { e2( f4) r } \\ { s2 f8 f f f } >>
+		<< { r8 h h h c4 r } \\ { f,8 r r4 r8 c c c } >>
+		<< { R1 } \\ { c2 g'4 g8 g } >>
+		<c e,>4\f r r8 c d e %15
+		e4\trill d r8 d e f
+		f4\trill e r8 g f e
+		d4.( e16 f) e8 e d c
+		h4.( c16 d) c8 r r4
+		r8 fis fis fis g f \appoggiatura f16 e8 d16 e %20
+		f8 e d c h? c c h?
+		c,16\p c' h a g f e d << { c4 r } \\ { c8 g' g g } >>
+		g,16 g' fis e d c h a << { g4 r } \\ { g8 g' g g } >>
+		c,16 c' h a g f e d c4 r
+		h'2( c4) r %25
+		<< { d,2( e4) r } \\ { s2 e8 c c c } >>
+		<< { r4 } \\ { c } >> b'! a g
+		f << { r r2 } \\ { r8 g a4 a8 a } >>
+		<d f,>4\f r r8 d e f
+		f4\trill e r8 e f g %30
+		g4\trill f r8 a g f
+		e4.( f16 g) f8 f e d
+		cis4.( d16 e) d4 r
+		r8 gis gis gis a g f g16 a
+		b8 b a g f4 e\trill %35
+		d,16\p d' c b a g f e << { d4 r } \\ { d8 a' a a } >>
+		a,16 a' g f e d cis h? << { a4 r } \\ { a8 a' a a } >>
+		d,16 d' c! b! a g f e d4 r
+		cis'2( d4) r
+		<< { e,2( f4) r } \\ { s2 f8 d d d } >>  %40
+		<< { r4 r8 } \\ { d4 d8 } >> c'! b4 r8 fis
+		g4 r8 b a4 r8 e'
+		<f a,>4\f q r8 f g a
+		a4\trill g r8 g a b
+		b4\trill  a r8 c b a %45
+		g4.( a16 b) a8 a g f
+		e4.( f16 g) << { f4 r } \\ { f8 f, f f } >>
+		<< { r4 } \\ { f } >> a16 g a f b a b f c' b c a
+		<< { d4 r r } \\ { d8 g, g g g4 } >> h16 a h g
+		c h c g d' c d h e4 r %50
+		r e16 d e c f e f c g' f g e
+		a g a f e d e c f e f c g' f g e
+		a g a f g f g e a g a f g f g e
+		a g a g f e f e d c d c b4
+		b'16 a b a g f g f e d e d c4 %55
+		c'16 b c b a g a g f e f e d4
+		d'16 c d c b a b a g f g f e4
+		g16 f g e a g a f g f g e a g a f
+		g, fis g a b a b c d c d e f e f g
+		a f d b a8 g << { f4 r } \\ { f8 c\p c c } >> %60
+		g'16 f g e a g a f g f g e a g a f
+		g fis g a b a b c d c d e f e f g
+		a\f f b g a f b g a f d b a8 g
+		f4 r r r8 <g b e>
+		<f c' f>4 r r r8 <g b e> %65
+		f'16 e f e d c d c b a b a g f g f \noBreak
+		c'8 c, c c c4\trill r
+		\key f \minor f16(\p g as g) f( g as g) << { f4 r } \\ { f8 as as as } >> \noBreak
+		g16( as b as) g( as b as) << { g4 r } \\ { g8 b b b } >>
+		as16( b c b) as( as' g f) e( f g f) e( des c b) %70
+		as( g as a) b( a b c) des( b des b) as( g f e)
+		f(\f g as g) f( g as g) << { f4 r } \\ { f8 c c c } >>
+		g'16( as b as) g( as b as) << { g4 r } \\ { g8 c, c c } >>
+		as'16( b c b) as( as' g f) e( f g f) e( des c b)
+		as( b c b) as( b c b) << { as4 r } \\ { as8 c, c c } >> %75
+		a'16( b c b) a( b c b) << { a4 r } \\ { a8 c, c c } >>
+		des16( es f es) des( des' c b) a( b c b) a( ges f es)
+		des( es f es) des( es f es) << { des4 r } \\ { des8 des des des } >>
+		des16( es f es) des( es f es) << { des4 r } \\ { des8 des des des } >>
+		c16( des es des) c( c' b as) g( as b as) g( f es des) %80
+		c( des es des) c( c' b as) g( as b as) g( f' es des)
+		c( des es des) c( c' b as) g( as b as) g( f es des)
+		c( des es d) es( e f e) f( g as g) \appoggiatura b as8( g16 f)
+		\appoggiatura f es8( des16 c) \appoggiatura c b8( c16 des) c( des es d) es( e f e)
+		f( g as g) \appoggiatura b as8( g16 f) \appoggiatura f es8( des16 c) \appoggiatura c b8( as16 g) %85
+		as(\p b c b) as( b c b) << { as4 r } \\ { as8 c, c c } >>
+		b'16( c des c) b( c des c) << { b4 r } \\ { b8 des, des des } >>
+		c'16( des es d) es( e f e) f( g as g) \appoggiatura b as8( g16 f)
+		\appoggiatura f es8( des16 c) \appoggiatura b' as8( g16 f) \appoggiatura f es8( des16 c) \appoggiatura c b8( as16 g)
+		as(\f b c b) as( b c b) << { as4 r } \\ { as8 as as as } >> %90
+		b16( c des c) b( c des c) << { b4 r } \\ { b8 b b b } >>
+		c16( des es des) c( c' b as) g( as b as) g( f es des)
+		c( des es des) c( des es des) << { c4 r } \\ { c8 as as as } >>
+		es'16( f ges f) es( f ges f) << { es4 r } \\ { es8 c c c } >>
+		des16( es f es) des( des' c b) a( b c b) a( ges f es) %95
+		des( es f es) des( es f es) << { des4 r } \\ { des8 b, b b } >>
+		f''16( g! as g) f( g as g) << { f4 r } \\ { f8 d, d d } >>
+		e'16( f g f) e( f g f) e4 r8 c
+		des!2 des
+		c1 %100
+		b
+		as
+		g2 b4-! as-!
+		des-! c-! r2
+		f,16( g as g) f( c' b as) g( as b as) g( des' c b) %105
+		as( b c b) as( as' g f) e( f g f) e( des c b)
+		as( g as a) b( a b c) des( b des b) as( g f e)
+		f(\p g as g) f( c' b as) g( as b as) g( des' c b)
+		as( b c b) as( as' g f) e( f g f) e( des c b)
+		as( g as a) b( a b c) des( b des b) as( g f e) %110
+		f( e f g) as( a b c) des( b des b) as( g f e)
+		f8 des'16( b) as( g f e) f( b des b) as( g f e)
+		f( g as g) f( g as g) f4 r\fermata \bar "|." %113 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -167,3 +167,123 @@ KyrieViolinoII = {
 		c8 <e, g,> q q4 r8\fermata \bar "|." %158 finis
 	}
 }
+
+CausaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoCausa
+		<f a,>4\f q r8 f e f
+		f4\trill e r8 e f g
+		g4\trill f r8 a g f
+		e4.( f16 g) f8 c b a
+		g4.( a16 b) a8 f' f f %5
+		f2 \once \slurDashed c4.( d16 e)
+		f8 e d c b a a g
+		f'16\p f' e d c b a g f4 r
+		c16 c' h a g f e d c4 r
+		f16 f' e d c b a g f4 r %10
+		e2( f4) r
+		\once \slurDashed g,2( a8) a a a
+		a d d d e4 r
+		R1
+		<e g>4\f r r8 c' h c %15
+		c4\trill h r8 h c d
+		d4\trill c r8 e d c
+		h?4.( c16 d) c8 g f e
+		\once \slurDashed d4.( e16 f) e8 c c c
+		c d d d d4 e8 r %20
+		c' h a g f e e d
+		c16\p c' h a g f e d c4 r
+		g16 g' fis e d c h a g4 r
+		c16 c' h a g f e d c4 r
+		d2( e4) r %25
+		h2( c4) r
+		r c c a
+		a r r2
+		<a f'>4\f r r8 d' cis d
+		d4\trill cis r8 cis d e %30
+		e4\trill d r8 f e d
+		cis4.( d16 e) d8 a g f
+		e4.( f16 g) f4 r
+		r8 f f f e4 d8 e16 f
+		g8 g f e d4 cis %35
+		d16\p d' c b a g f e d4 r
+		a16 a' g f e d cis h a4 r
+		d16 d' c! b! a g f e d4 r
+		e2( f4) r
+		cis2( d4) r %40
+		r r8 fis g4 r8 c,
+		b4 r8 e f4 r8 b
+		<f a>4\f q r8 f' e f
+		f4\trill e r8 e f g
+		g4\trill f r8 a g f %45
+		e4.( f16 g) f8 c b a
+		g4.( a16 b) a8 f f f
+		f4 f16 f f f f f f f f f f f
+		f8 g g g g4 g16 g g g
+		g g g g g g g g g8 c, c c %50
+		c4 c16 c c c c c c c c c c c
+		c c c c c c c c c c c c c c c c
+		c c c c c c c c c c c c c c c c
+		c4 f'16 e f e d c d c b a b a
+		g4 g'16 f g f e d e d c b c b %55
+		a4 a'16 g a g f e f e d c d c
+		b4 b'16 a b a g f g f e d e d
+		c c c c c c c c c c c c c c c c
+		g fis g a b a b c d c d e f e f g
+		f8 b,16 g f8 e f c\p c c %60
+		c16 c c c c c c c c c c c c c c c
+		g' fis g a b a b c d c d e f e f g
+		f\f c c c c c c c c8 b16 g f8 e
+		f4 r r r8 b
+		a4 r r r8 <b e> %65
+		f'16 e f e d c d c b a b a g f g f \noBreak
+		c'8 c, c c c4\trill r
+		\key f \minor as16(\p b c b) as( b c b) as8 f' f f \noBreak
+		e16( f g f) e( f g f) e8 g g g
+		f16( g as g) f( c' b as) g( as b as) g( b as g) %70
+		f( e f es) des( c des a?) b( des f des) c( b as g)
+		as(\f b c b) as( b c b) as4 r
+		e'16( f g f) e( f g f) e4 r
+		f16( g as g) f( c' b as) g( as b as) g( b as g)
+		f( g as g) f( g as g) f4 r %75
+		f16( g a g) f( g a g) f8 a, a a
+		b16( c des c) b( f' es des) c( des es des) c( es des c)
+		b( c des c) b( c des c) b4 r
+		b16( c des c) b( c des c) b4 r
+		as16( b c b) as( es' des c) b( c des c) b( des c b) %80
+		as( b c b) as( es' des c) b( c des c) b( des' c b)
+		as( b c b) as( es' des c) b( c des c) b( des c b)
+		as( b c b) c( c des c) des( es f es) \appoggiatura ges f8( es16 des)
+		\appoggiatura des c8( b16 as) \appoggiatura as g8( as16 b) as( b c b) c( c des c)
+		des( es f es) \appoggiatura ges f8( es16 des) \appoggiatura des c8( b16 as) \appoggiatura es des8( c16 b) %85
+		c(\p des es des) c( des es des) c8 as as as
+		g'16( as b as) g( as b as) g8 b, b b
+		as16( b c b) c( c des c) des( es f es) \appoggiatura ges f8( es16 des)
+		\appoggiatura des c8( b16 as) \appoggiatura ges' f8( es16 des) \appoggiatura des c8( b16 as) \appoggiatura es' des8( c16 b)
+		c(\f des es des) c( des es des) c4 r %90
+		g'16( as b as) g( as b as) g4 r
+		as16( b c b) as( es' des c) b( c des c) b( des c b)
+		as( b c b) as( b c b) as4 r
+		c16( des es des) c( des es des) c4 r
+		b16( c des c) b( f' es des) c( des es des) c( es des c) %95
+		b( c des c) b( c des c) b4 r
+		d16( e? f e?) d( e? f e?) d4 r
+		c16( d e d) c( d e d) c2
+		c b
+		b as %100
+		as g
+		g f
+		e \parOn c4-\parenthesize-! c-!
+		f-! \parOff f-\parenthesize-! r2
+		as,16( b c b) as( as' g f) e( f g f) e( b' as g) %105
+		f( g as g) f( c' b as) g( as b as) g( b as g)
+		f( e f es) des( c des a) b( des f des) c( b as g)
+		as(\pE b c b) as( as' g f) e( f g f) e( b' as g)
+		f( g as g) f( c' b as) g( as b as) g( b as g)
+		f( e f es) des( c des a) b( des f des) c( b as g) %110
+		as4 r r8 f'16( des) c( b as g)
+		as8 f'16( des) c( b as g) as( des f des) c( b as g)
+		as( b c b) as( b c b) as4 r\fermata \bar "|." %113 finis
+	}
+}

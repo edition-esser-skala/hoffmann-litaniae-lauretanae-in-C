@@ -116,3 +116,50 @@ KyrieClarinoII = {
 		e8 e e e4 r8\fermata \bar "|." %158 finis
 	}
 }
+
+CausaClarinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoCausa
+		c4\fE c r2
+		c4 c r2
+		c4 c r2
+		r8 c c c c4 r
+		r8 c16 c c8 c c r r4 %5
+		r2 c4 c
+		r2 r4 c
+		c r r2
+		R1*6 %14
+		e4 r r8 e g c %15
+		c4 g r8 g c d
+		d4 c r2
+		g2 c4 r
+		g2 c,4 r
+		r2 g'4 c8 r %20
+		r2 r4 g8 g
+		c4 r r2
+		R1*20 %42
+		c,4 c r2
+		c4 c r2
+		c4 c r2 %45
+		r8 c c c c4 r
+		r8 c16 c c8 c c4 r
+		R1*3 %50
+		r4 c c c
+		c2 c4 c
+		c2 c
+		c4 r r2
+		R1*3 %57
+		c2 c
+		R1
+		r4 c8 c c4 r %60
+		R1*2
+		c4 c c8 r c c
+		c4 r r r8 c'
+		c4 r r r8 c %65
+		c4 r r2
+		r8 c, c c c4 r
+		R1*45 %112
+		R1\fermataMarkup \bar "|." %113 finis
+	}
+}

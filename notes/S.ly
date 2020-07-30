@@ -270,6 +270,197 @@ KyrieSopranoLyrics = \lyricmode {
 	bis. %158 finis
 }
 
+CausaSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoCausa
+		\mvTr f4\fE^\tuttiE f r8 f g a
+		a8. g16 g4 r8 g a b
+		b8. a16 a4 r8 c b a
+		g4.( a16[ b)] a8 a g f
+		e4.( f16[ g]) f8 r r4 %5
+		r8 h h h c8[( b)] a g16([ a)]
+		b8 a g f e f f([ e)]
+		f4 r r2
+		R1*6 %14
+		c'4 r r8 c d e %15
+		e4 d r8 d e f
+		f8. e16 e4 r8 g f e
+		d4.( e16[ f)] e8 e d c
+		h4.( c16[ d)] c8 r r4
+		r8 fis fis fis g([ f)] e d16([ e)] %20
+		f8 e d c h c c([ h)]
+		c4 r r2
+		R1*6 %28
+		d4 r r8 d([ e)] f
+		f4 e r8 e f g %30
+		g4 f r8 a g f
+		e4.( f16[ g)] f8 f e d
+		cis4.( d16[ e)] d4 r
+		r8 gis gis gis a8[( g)] f g16([ a)]
+		b8 b a g f4( e)\trill %35
+		d r r2
+		R1*6 %42
+		f,4 f r8 f([ g)] a
+		a8. g16 g4 r8 g a b
+		b8. a16 a4 r8 c b a %45
+		g4. a16[( b)] a8 a([ g)] f
+		e4. f16([ g)] f4 r
+		r a b( c)
+		d r r h
+		c( d) e r %50
+		r e, f( g)
+		a e f( g)
+		a g a g
+		a8([ g)] f e d([ c)] b4
+		b'8([ a)] g f e([ d)] c4 %55
+		c'8 b a g f([ e)] d4
+		d'8([ c)] b a g([ f)] e4
+		g a g a
+		d2.( e4)
+		f8 d16([ b)] a8([ g)] f4 r %60
+		g\p a g a
+		d2.( e4)
+		f8\f b, a b a d16([ b)] a8([ g)]
+		f4 r r2
+		R1*3 %68
+		\key f \minor R1*4 %71
+		as2 as4 as8 as
+		b1
+		as4 r r2
+		as1 %75
+		a2. a4
+		b4 r r2
+		b2. b4
+		g1
+		as4 r r2 %80
+		es'4 as, g2
+		as4 c \appoggiatura es8 des4( c8[ b)]
+		c4 r8 e f4. f8
+		es4( des) c r8 e
+		f4. f8 es4( g,) %85
+		as r r2
+		R1*3
+		c2. c4 %90
+		des1
+		c4 r r2
+		c2. c4
+		es1
+		des4 r r2 %95
+		des2. des4
+		f1
+		e2 c
+		des!4. des8 des2
+		c c4 c %100
+		b2 b
+		as1
+		g2 b4 as
+		des c r2
+		c4 f, e2 %105
+		f4 as \appoggiatura c8 b4( as8[ g)]
+		as4 r r8 \appoggiatura es'16 des8 c16([ b as g)]
+		f4 r r2
+		R1
+		r2 r8 des'\pE c16([ b as g)] %110
+		f4 r r8 des' c16([ b as g)]
+		f8 des' c16([ b as g)] f8 des' c16([ b as g)]
+		f4 r r2\fermata \bar "|." %113 finis
+	}
+}
+
+CausaSopranoLyrics = \lyricmode {
+	Cau -- sa no -- strae lae --
+	ti -- ti -- ae, no -- strae lae --
+	ti -- ti -- ae, o -- ra pro
+	no -- bis, o -- ra pro
+	no -- bis, %5
+	o -- ra pro no -- bis, o --
+	ra, o -- ra, o -- ra pro no --
+	bis.
+
+	Vas spi -- ri -- tu -- %15
+	a -- le, vas ho -- no --
+	ra -- bi -- le, o -- ra pro
+	no -- bis, o -- ra pro
+	no -- bis,
+	o -- ra pro no -- bis, o -- %20
+	ra, o -- ra, o -- ra pro no --
+	bis.
+
+	Vas, vas __ in -- %29
+	si -- gne de -- vo -- ti -- %30
+	o -- nis, o -- ra pro
+	no -- bis, o -- ra pro
+	no -- bis,
+	o -- ra pro no -- bis, o --
+	ra, o -- ra pro no -- %35
+	bis.
+
+	Ro -- sa, ro -- sa %43
+	my -- sti -- ca, tur -- ris Da --
+	vi -- di -- ca, tur -- ris e -- %45
+	bur -- ne -- a, to -- mus
+	au -- re -- a,
+	pro no --
+	bis, pro
+	no -- bis, %50
+	pro no --
+	bis, pro no --
+	bis, pro no -- bis,
+	foe -- de -- ris ar -- ca,
+	ia -- nu -- a coe -- li, %55
+	stel -- la ma -- tu -- ti -- na,
+	o -- ra pro no -- bis,
+	o -- ra, o -- ra,
+	o --
+	ra pro no -- bis, %60
+	o -- ra, o -- ra,
+	o --
+	ra, o -- ra, o -- ra pro no --
+	bis.
+
+	Sa -- lus in -- fir -- %72
+	mo --
+	rum,
+	re -- %75
+	fu -- gi --
+	um
+	pec -- ca --
+	to --
+	rum, %80
+	o -- ra, o --
+	ra pro no --
+	bis, pro no -- bis,
+	o -- ra pro
+	no -- bis, o -- %85
+	ra.
+
+	Con -- so -- %90
+	la --
+	trix
+	af -- fli --
+	cto --
+	rum, %95
+	af -- fli --
+	cto --
+	rum, au --
+	xi -- li -- um
+	Chri -- sti -- a -- %100
+	no -- rum,
+	o --
+	ra, o -- ra,
+	o -- ra,
+	o -- ra, o -- %105
+	ra pro no --
+	bis, pro no --
+	bis,
+
+	pro no -- %110
+	bis, pro no --
+	bis, pro no -- bis, pro no --
+	bis. %113 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

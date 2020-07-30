@@ -138,3 +138,118 @@ KyrieTromboneI = {
 		g4 r8 r4 r8\fermata \bar "|." %158 finis
 	}
 }
+
+CausaTromboneI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoCausa
+		a4\fE a r8 f' e f
+		f8. e16 e4 r8 e f g
+		g8. f16 f4 r8 a g f
+		e4.( f16 g) f8 c' b a
+		g4.( a16 b) a8 f f f %5
+		f2 c4.( d16 e)
+		f8 e d c b a a g
+		a4\pE a r8 c c c
+		c4 c r8 c c c
+		c4 c r2 %10
+		r8 c c c c4 r
+		r8 c c c c f f f
+		f4. g8 c,4 c8 c
+		c2 g'8 g g4
+		g4\fE r r8 c, h c %15
+		c8. h?16 h4 r8 h c d
+		d8. c16 c4 r8 e d c
+		h4.( c16 d) c8 g' f e
+		d4.( e16 f) e8 r r4
+		r8 d d d d4 e8 r %20
+		r4 r8 g g g g4
+		g\pE g r8 g g g
+		g4 g r8 g g g
+		g4 g r2
+		r8 g g g g4 r %25
+		r8 g g g g c, c c
+		c4. e8 f cis cis cis
+		d4 r8 g a4 a8 a
+		a4\fE r r8 d, cis d
+		d4 cis r8 cis d e %30
+		e4 d r8 f e d
+		cis4.( d16 e) d8 a' g f
+		e4.( f16 g) f8 r r4
+		r8 f f f e4 d8 e16 f
+		g8 g f e d4 cis %35
+		d\pE d r8 a' a a
+		a4 a r8 a a a
+		a4 a r2
+		r8 a a a a4 r
+		r8 a a a a d, d d %40
+		d2 g4 a
+		g2 f4 g
+		f\fE f r8 f e f
+		f8. e16 e4 r8 e f g
+		g8. f16 f4 r8 a g f %45
+		e4.( f16 g) f8 c' b a
+		g4.( a16 b) a8 f f f
+		f2 f
+		f8 g g g g2
+		g g4 r %50
+		r b, a b
+		a b a b
+		a b a b-\critnote
+		a8 b c c d e f4
+		b,8 c d d e f g4 %55
+		c,8 d e e f g a4
+		d,8 e f f g a b4
+		b a b a
+		g1
+		a8 b16 g f8 e f c\pE c c %60
+		c2 c
+		d2. c4
+		c4.\fE c8 c d c4
+		c r r2
+		R1*3 %67
+		\key f \minor as'4\pE r r8 as as as \noBreak
+		b4 r r8 b b b
+		as2 b %70
+		as4 r r8 des, c4
+		c\fE r r8 c c c
+		c4 r r8 c c c
+		c2 c
+		c4 r r8 c c c %75
+		c4 r r8 c c c
+		des2 es
+		des4 r r8 des des des
+		des4 r r8 des des des
+		c2 des %80
+		c4 r r2
+		R1
+		c2 des
+		c4 b as c
+		des2 c4 b %85
+		c r r8 c\pE c c
+		des4 r r8 des des des
+		c4 r as'2
+		as4 as as des,
+		c\fE r r8 as' as as %90
+		b4 r r8 b b b
+		as2 b
+		as4 r r8 as as as
+		c4 r r8 c c c
+		b2 c %95
+		b4 r r8 b, b b
+		d4 r r8 d d d
+		c2 c'
+		c b
+		b as %100
+		as g
+		g f
+		e c4 c
+		f f r2
+		R1*4 %108
+		c'4\pE f, e2
+		f4 r r8 des c4 %110
+		c r r8 des \tieDashed c4~
+		c8 des c4~ c8 des c4~
+		c c c r\fermata \bar "|." %113 finis
+	}
+}

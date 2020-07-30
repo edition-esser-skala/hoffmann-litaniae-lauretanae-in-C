@@ -162,3 +162,105 @@ KyrieOboeI = {
 		c8 c' c c4 r8\fermata \bar "|." %158 finis
 	}
 }
+
+CausaOboeI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoCausa
+		R1*7 %7
+		\mvTr f'4\pE-\solo f r8 f g a
+		a4\trill g r8 g a b
+		b4\trill a r8 c b a %10
+		g4.( a16 b) a8 a g f
+		e4.( f16 g) f4 r
+		r8 h, h h c d16 e f8 e
+		a g f e d c c h
+		c4 r r2 %15
+		R1*6 %21
+		c4 c r8 c d e
+		e4\trill d r8 d e f
+		f4\trill e r8 g f e
+		d4.( e16 f) e8 e d c %25
+		h4.( c16 d) c4 r
+		r8 b'! b b a( g) g g
+		\appoggiatura g16 f8 e16 f \appoggiatura a g8 f16 e d4 cis\trill
+		d4 r r2
+		R1*6 %35
+		d4 d r8 d e f
+		f4\trill e r8 e f g
+		g4\trill f r8 a g f
+		e4.( f16 g) f8 f e d
+		cis4.( d16 e) d4 r %40
+		r8 c'! c c b!( fis) fis fis
+		g( b) b b a( e) e e
+		\mvTr f4\fE-\tuttiE f r8 f g a
+		a8. g16 g4 r8 g a b
+		b8. a16 a4 r8 c b a %45
+		g4.( a16 g) a8 a g f
+		e4.( f16 g) f4 r
+		r a, b c
+		d r r h
+		c d e r %50
+		r e f g
+		a e f g
+		a g a g
+		a r r2
+		b4 r r2 %55
+		c4 r r2
+		d4 r r2
+		g,4 a g a
+		d,2. e4
+		f8 d16 b a8 g f4 r %60
+		g\p a g a
+		d2. e4
+		f8\fE b, a b a d16 b a8 g
+		f4 r r r8 e'
+		f4 r r r8 e %65
+		f4 r r2 \noBreak
+		c8 c, c c c4\trill r
+		\key f \minor c'4\pE r r8 c c c \noBreak
+		c4 r r8 c c c
+		c2 c %70
+		c4 r r8 des c16 b as g
+		f4\fE r r8 as as as
+		b4 r r8 b b b
+		as2 b
+		as4 r r8 as as as %75
+		a4 r r8 a a a
+		b2 c
+		b4 r r8 b b b
+		g4 r r8 g g g
+		as2 b %80
+		as4 r r2
+		R1
+		es'4. e8 f2
+		es4 des c es8 e
+		f2 es4 g, %85
+		as4 r r8 es'\pE es es
+		es4 r r8 es es es
+		es4 r f2
+		es4 f \appoggiatura f16 es8(^\critnote des16 c) \appoggiatura c b8( as16 g)
+		as4\fE r r8 c c c %90
+		des4 r r8 des des des
+		c2 des
+		c4 r r8 c c c
+		es4 r r8 es es es
+		des2 es %95
+		des4 r r8 des des des
+		f4 r r8 f f f
+		e2 c
+		des! des
+		c1 %100
+		b
+		as
+		g2 b4 as
+		des c r2
+		R1*3 %107
+		c'4\pE f, e2
+		f4 as \appoggiatura c8 b4 as8 g
+		as4 r r8 b as16( g f e) %110
+		f4 r r8 des c16( b as g)
+		f8 des' c16( b as g) f8 des' c16( b as g)
+		f4 f f r\fermata \bar "|." %113 finis
+	}
+}

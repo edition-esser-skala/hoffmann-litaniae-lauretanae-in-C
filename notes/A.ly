@@ -270,6 +270,197 @@ KyrieAltoLyrics = \lyricmode {
 	bis. %158 finis
 }
 
+CausaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoCausa
+		\mvTr a4\fE^\tuttiE a r8 f' e f
+		f8. e16 e4 r8 e f g
+		g8. f16 f4 r8 a g f
+		e4.( f16[ g)] f8 c' b a
+		g4.( a16[ b)] a8 f f f %5
+		f4 f c4.( d16[ e)]
+		f8 e d c b a a([ g)]
+		a4 r r2
+		R1*6 %14
+		e'4 r r8 c' h c %15
+		c4 h r8 h c d
+		d8. c16 c4 r8 e d c
+		h4.( c16[ d)] c8 g f e
+		d4.( e16[ f)] e8 r r4
+		r8 d d d d4 e8 r %20
+		r4 r8 g g g g4
+		g r r2
+		R1*6 %28
+		f4 r r8 d'([ cis)] d
+		d4 cis r8 cis d e %30
+		e4 d r8 f, e d
+		cis4.( d16[ e)] d8 a' g f
+		e4.( f16[ g)] f8 r r4
+		r8 f f f e4 d8 e16([^\critnote f)]
+		g8 g f e d4( cis) %35
+		d r r2
+		R1*6 %42
+		a4 a r8 f'([ e)] f
+		f8. e16 e4 r8 e f g
+		g8. f16 f4 r8 a g f %45
+		e4. f16[( g)] f8 c'([ b)] a
+		g4. a16([ b)] a8 f f f
+		\once \tieDashed f2~ f
+		f8 g g g g2~
+		g g4 r %50
+		r b,! a b
+		a b a( b)
+		a b a b^\critnote
+		a8([ b)] c c d([ e)] f4
+		b,8([ c)] d d e([ f)] g4 %55
+		c,8 d e e f([ g)] a4
+		d,8([ e)] f f g([ a)] b4
+		b a b a
+		g1
+		a8 b16([ g)] f8([ e)] f c'\pE c c %60
+		c2 c
+		d2.( c4)
+		c4.\fE c8 c d c4
+		c r r2
+		R1*3 %67
+		\key f \minor R1*4 %71
+		f,2 f4 f8 f
+		g1
+		f4 r r2
+		c1 %75
+		c2. c4
+		des r r2
+		des2. des4
+		des1
+		c4 r r2 %80
+		r b'4( des,)
+		c es es2
+		es4 r8 c des4. des8
+		c4( b) as r8 c
+		des4. des8 c4( b) %85
+		as r r2
+		R1*3
+		as'2. as4 %90
+		b1
+		as4 r r2
+		as2. as4
+		c1
+		b4 r r2 %95
+		b2. b4
+		d1
+		c2 c
+		c4. c8 b2
+		b as4 as %100
+		as2 g
+		g( f)
+		e c4 c
+		f f r2
+		r g4( b,) %105
+		as c c2
+		c4 r r8 b' as16([ g f e)]
+		f4 r r2
+		R1
+		r2 r8 b\pE as16([ g f e)] %110
+		f4 r r8 b as16([ g f e)]
+		f8 b as16([ g f e)] f8 b as16([ g f e)]
+		f4 r r2\fermata \bar "|." %113 finis
+	}
+}
+
+CausaAltoLyrics = \lyricmode {
+	Cau -- sa no -- strae lae --
+	ti -- ti -- ae, no -- strae lae --
+	ti -- ti -- ae, o -- ra pro
+	no -- bis, o -- ra pro
+	no -- bis, o -- ra pro %5
+	no -- bis, o --
+	ra, o -- ra, o -- ra pro no --
+	bis.
+
+	Vas spi -- ri -- tu -- %15
+	a -- le, vas ho -- no --
+	ra -- bi -- le, o -- ra pro
+	no -- bis, o -- ra pro
+	no -- bis,
+	o -- ra pro no -- bis, %20
+	o -- ra pro no --
+	bis.
+
+	Vas, vas __ in -- %29
+	si -- gne de -- vo -- ti -- %30
+	o -- nis, o -- ra pro
+	no -- bis, o -- ra pro
+	no -- bis,
+	o -- ra pro no -- bis, o --
+	ra, o -- ra pro no -- %35
+	bis.
+
+	Ro -- sa, ro -- sa %43
+	my -- sti -- ca, tur -- ris Da --
+	vi -- di -- ca, tur -- ris e -- %45
+	bur -- ne -- a, to -- mus
+	au -- re -- a, o -- ra pro
+	no --
+	bis, o -- ra pro
+	no -- bis, %50
+	o -- ra, o --
+	ra pro no --
+	bis, pro no -- bis,
+	foe -- de -- ris ar -- ca,
+	ia -- nu -- a coe -- li, %55
+	stel -- la ma -- tu -- ti -- na,
+	o -- ra pro no -- bis,
+	o -- ra, o -- ra,
+	o --
+	ra pro no -- bis, o -- ra pro %60
+	no -- bis,
+	o --
+	ra, o -- ra pro no --
+	bis.
+
+	Sa -- lus in -- fir -- %72
+	mo --
+	rum,
+	re -- %75
+	fu -- gi --
+	um
+	pec -- ca --
+	to --
+	rum, %80
+	o --
+	ra pro no --
+	bis, pro no -- bis,
+	o -- ra pro
+	no -- bis, o -- %85
+	ra.
+
+	Con -- so -- %90
+	la --
+	trix
+	af -- fli --
+	cto --
+	rum, %95
+	af -- fli --
+	cto --
+	rum, au --
+	xi -- li -- um
+	Chri -- sti -- a -- %100
+	no -- rum,
+	o --
+	ra, o -- ra,
+	o -- ra,
+	o -- %105
+	ra pro no --
+	bis, pro no --
+	bis,
+
+	pro no -- %110
+	bis, pro no --
+	bis, pro no -- bis, pro no --
+	bis. %113 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

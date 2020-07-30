@@ -81,3 +81,12 @@ KyrieTimpani = {
 		c8 c c c4 r8\fermata \bar "|." %158 finis
 	}
 }
+
+CausaTimpani = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoCausa
+		R1*112-\markup \remark "tacet"
+		R1\fermataMarkup \bar "|."
+	}
+}
