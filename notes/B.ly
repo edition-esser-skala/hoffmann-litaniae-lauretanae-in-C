@@ -9,7 +9,7 @@ KyrieBassoNotes = {
 		\clef bass
 		\key c \major \time 6/8 \autoBeamOff \tempoKyrie
 		R2.*18 %18
-		\mvTr c4\fE^\tuttiE c8 c4 c8
+		c4\fE c8 c4 c8
 		c4. c4 e8 %20
 		f4( fis8) g4 h8
 		c4. c,4 r8
@@ -247,7 +247,7 @@ CausaBassoNotes = {
 	\relative c {
 		\clef bass
 		\key f \major \time 4/4 \autoBeamOff \tempoCausa
-		\mvTr f,4\fE^\tuttiE f r2
+		f,4\fE f r2
 		c'4 c r2
 		f4 f, r2
 		r8 c' c4 f8 r r4
@@ -434,13 +434,172 @@ CausaBassoLyrics = \lyricmode {
 	bis. %113 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassoLyrics = \lyricmode {
-%
-% }
+ReginaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoRegina
+		c4\fE f16([ e)] d c g'8 g g a16([ h)]
+		c4 c,8 r r2
+		R1
+		r4 r8 c' h4. a8
+		g4. f8 e4 d8 g %5
+		c4 c,8 r r2
+		r4 r8 c' h g a d,16 d
+		g4 g,8 r r2
+		R1
+		r4 r8 h c4 d %10
+		e fis g8 c, d4
+		g, r8 fis' g4 fis8 fis
+		g g16 g fis8 fis g4 fis
+		g e8 h c g' e h
+		c g' e h c c d4 %15
+		g, r r2
+		d'8 d16 d e8([ a,)] d f e([ a)]
+		d,4 r r2
+		c!8 c16 c d8([ g,)] c e d([ g)]
+		c,4 e f4. fis8 %20
+		g g, e'4 f4.( fis8)
+		g4 r r2
+		R1
+		c,4\pE f16([ es)] d c d8 d \appoggiatura c16 h!8 a16([ g)]
+		c8 b as g fis2 %25
+		g8 g c16([ h)] a([ g)] g'2
+		g8 g, c16([ h)] a([ g)] g'2
+		g8 g, c16([ h)] a([ g)] g'2~
+		g g4 r
+		R1*2 %31
+		r4 r8 e\fE f4 g
+		a h c8 f, g([ g,)]
+		c4 r8 e f4 e8 c
+		f f e c f4 fis %35
+		g8 g fis d g4 h
+		c h8 g c c h g
+		c c a e f c' a e \noBreak
+		f c' a e f e16([ f)] g8([ g,)] \bar "|"
+		\tempoAgnus c4 c8 c c4 c \noBreak %40
+		r4 r8 c f,4 c'
+		r2 r4 r8 c
+		f4. fis8 g g, r4
+		r g'8 g g4 g
+		r fis8 fis fis4 fis %45
+		g8 g c, c d4. d8
+		g,4 g'8 g g4 g
+		r r8 g c,4 g'
+		r2 r4 r8 g
+		c4. cis8 d d, r4 %50
+		r g g g
+		r f! f f8 f
+		es4 f8 fis g4. g8
+		c,4 c8 c c4 c
+		r r8 c f,4 c' %55
+		r2 r4 r8 c
+		f4. fis8 g g, r4
+		r c'8 c c4 c
+		r b8 b b4 b
+		r as8 as as4 as %60
+		a8 a a a g4 g\fermata \bar "||" \noBreak
+		\time 6/8 \tempoMiserere R2.*4 %65
+		r4 r8 h4 a8
+		g([ e')] d d([ c)] h
+		c4 h8 c([ f)] e
+		d([ g,)] c f,4 e8
+		d([ g,)] c r f e %70
+		d([ g,)] c f([ g g,)]
+		c4 r8 r4 r8
+		r4 e8(\fE f4 g8)
+		c,4 r8 r4 r8
+		R2.*2 %76
+		r4 e8(\fE f4 g8)
+		c,4. e(
+		f) g
+		a h %80
+		c a
+		f g
+		c,8 c\pE c c4 c8
+		f,2.
+		c'\fermata \bar "|." %85 FINIS
+	}
+}
+
+ReginaBassoLyrics = \lyricmode {
+	Re -- gi -- na, re -- gi -- na An -- ge --
+	lo -- rum,
+
+	o -- ra, o --
+	ra pro no -- bis, pro %5
+	no -- bis,
+	re -- gi -- na Pa -- tri -- ar --
+	cha -- rum,
+
+	o -- ra, o -- %10
+	ra, o -- ra pro no --
+	bis, re -- gi -- na, re --
+	gi -- na A -- po -- sto -- lo -- rum,
+	o -- ra, o -- ra, o -- ra, o --
+	ra, o -- ra, o -- ra pro no -- %15
+	bis,
+	o -- ra pro no -- bis, pro no --
+	bis,
+	o -- ra pro no -- bis, pro no --
+	bis, o -- ra pro %20
+	no -- bis, pro no --
+	bis,
+
+	re -- gi -- na, re -- gi -- na Vir -- gi --
+	num, o -- ra pro no -- %25
+	bis, o -- ra pro no --
+	bis, o -- ra pro no --
+	bis, o -- ra pro no --
+	bis,
+
+	o -- ra, o -- %32
+	ra, o -- ra pro no --
+	bis, re -- gi -- na San --
+	cto -- rum o -- mni -- um, San -- %35
+	cto -- rum o -- mni -- um, re --
+	gi -- na San -- cto -- rum o -- mni -- um,
+	o -- ra, o -- ra, o -- ra, o --
+	ra, o -- ra, o -- ra pro no --
+	bis. A -- gnus De -- i, %40
+	qui tol -- lis
+	pec --
+	ca -- ta mun -- di:
+	Par -- ce no -- bis,
+	par -- ce no -- bis, %45
+	par -- ce no -- bis, Do -- mi --
+	ne. A -- gnus De -- i,
+	qui tol -- lis
+	pec --
+	ca -- ta mun -- di: %50
+	Ex -- au -- di,
+	ex -- au -- di, ex --
+	au -- di nos, Do -- mi --
+	ne. A -- gnus De -- i,
+	qui tol -- lis %55
+	pec --
+	ca -- ta mun -- di:
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re,
+	mi -- se -- re -- re, %60
+	mi -- se -- re -- re no -- bis,
+
+	mi -- se -- %66
+	re -- re no -- bis,
+	mi -- se -- re -- re
+	no -- bis, mi -- se --
+	re -- re, mi -- se -- %70
+	re -- re no --
+	bis,
+	no --
+	bis,
+
+	no -- %77
+	bis, mi --
+	se --
+	re -- re %80
+	no -- _
+	_ _
+	bis, mi -- se -- re -- re
+	no --
+	bis. %85 FINIS
+}

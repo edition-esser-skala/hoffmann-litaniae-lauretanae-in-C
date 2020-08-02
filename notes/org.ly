@@ -578,13 +578,179 @@ CausaBassFigures = \figuremode {
 	r1 %113 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+ReginaOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoRegina
+		\mvTr c4-!\f-\tuttiE f16-! e-! d-! c-! g'8-! g-! g-! a16-! h-!
+		c8.-! c,16-! c8-! r r2
+		R1
+		r4 r8 c h h' a a,
+		g g' f f, e e' d g, %5
+		c e16 g c8 r r2
+		r4 r8 c, h16 h' a g fis fis e d
+		g, g' d h g8 r r2
+		R1
+		r4 r8 h c16 e d c d fis e d %10
+		e g fis e fis a g fis g8 c d d,
+		g4 r8 fis g h16 g a g fis d
+		g g, h' g a g fis d g g, h' g a g fis d
+		g8 f16 g e g h, g' c, g' f g e g h, g'
+		c, g' f g e g h, g' c,8 c d d %15
+		g,4 r r2
+		d'8\f d e a, d f e a
+		d,4\p r r2
+		c!4\f d8 g, c e d g
+		c,4 r8 c f f, r d' %20
+		g g, r c f f, r d'
+		g8. as16-! g-! f-! es-! d-! c8-! \noBeam \clef treble << { r8 r4 } \\ { c'8\pE \appoggiatura f16 es8 d16 c } >>
+		<< { c4 \appoggiatura f16 es8 d16 c } \\ { g'4 g } >> \clef "treble_8" f,4-\critnote b16 as g f
+		\clef bass c4 f16 es d c d8 c \appoggiatura c16 h!8 a16 g
+		c8 b as g fis2 %25
+		g4 \appoggiatura c16 h8 a16 g g'8 g g g
+		g g, \appoggiatura c16 h8 a16 g g'8 g g g
+		g g, \appoggiatura c16 h8 a16 g g'8 g g g
+		g g g g g g d h
+		g4 r r2 %30
+		R1
+		r4 r8 e'!\f f16 a g f g h a g
+		a c h a h d c h c8 f, g g,
+		c4 r8 e f a16 f g f e c
+		f f, a' f g f e c f8 fis16 g a g fis d %35
+		g8 h!16 g a g fis d g g, h' c d c h g
+		c c, e' c d c h g c8 e16 c d c h g
+		c8 b16 c a c e, c' f, c' b c a c e, c' \noBreak
+		f, c' b c a c e, c' f,8 f g g, \bar "|"
+		\tempoAgnus c4 c8 c c4 c \noBreak %40
+		r4 r8 c f,4 c'
+		r2 r4 r8 c-\senzaOrg
+		f4. fis8 g g, r4
+		r g'8 g g4 g
+		r fis8 fis fis4 fis %45
+		g8 g c, c d4. d8
+		g,4 g'8 g g4 g
+		r r8 g c,4 g'
+		r2 r4 r8 g-\senzaOrgE
+		c4. cis8 d d, r4 %50
+		r g8 g g4 g
+		r f!8 f f4 f
+		es8 es f fis g g g, g
+		c4 c8 c c4 c \noBreak
+		r4 r8 c f,4 c' %55
+		r2 r4 r8 c-\senzaOrgE
+		f4. fis8 g g, r4
+		r c'8 c c4 c
+		r b8 b b4 b
+		r as8 as as4 as \noBreak %60
+		a8 a a a g4 g,\fermata \bar "||"
+		\time 6/8 \tempoMiserere c16\p c' e c h g c c, f c e c \noBreak
+		d c h g c e g a h g fis d
+		g g, c' g h g a g fis d g f
+		e c' e c h g c c, f c e c %65
+		d c h g c e g a h g fis d
+		g g, c' g h g a g fis d g f
+		e c' e c h g c c, f c e c
+		d c h g c e f c f c e c
+		d c h g c e f\fE c f c e c %70
+		d c h g c e f d g f g g,
+		c4 r8 r4 r8
+		r4 e8\f f4 g8
+		c,4 r8 r4 r8
+		R2.*2 %76
+		r4 e8\f f4 g8
+		c,16 c c c c c e e e e e e
+		f f f f f f g g g g g g
+		a a a a a a h h h h h h %80
+		c c c c c c a a a a a a
+		f f f f f f g g g g g, g
+		c8 c\pE c c4 c8
+		f,2.
+		c'\fermata \bar "|." %85 FINIS
+	}
+}
+
+ReginaBassFigures = \figuremode {
+	r1
+	r
+	r
+	r4. <3>8 <6>4 q
+	q q q q8 <[7]> %5
+	r1
+	r4. <3>8 <6>4 <6 5>
+	r1
+	r
+	r4. \bo <[6 \l]>8 <9>4 \bc <[7 _+]> %10
+	<3> \bo <[6 5]>4. \bc <[6 \l]>8 <6 4> <7 _+>
+	r4. <6>8 r4 <6\\ 4 3>
+	r <6\\ 4 3>2 q4
+	r8 <[4 2]> <6> <6 [5]> r <4 2> <6> <6 [5]>
+	r <4 2> <6> <6 [5]> r <[6]> <6 4> <7 _+> %15
+	r1
+	<_!>4 <6\\>8 <[7 _+]> r <[6]> <6\\> <[7 _+]>
+	r1
+	r4 <6>8 \bo <[7]>4 \bc <[6]>8 <6> <[7]>
+	r2 \bo <[9]>4 <8>8 \bc <[7] _+> %20
+	r2 \bo <[9]>4 <8>8 \bc <[7] _+>
+	<3>1
+	r2 \bo <[9 _-]>4 \bc <[5 2]>
+	\bo <[5 4]> <5 2> <9-7 >8 <\t \t> \bc <[6 5]>4
+	\bo <[9 _-]>8 <\t \t> <5- 3> \bc <[\t \t]> <7- _->2 %25
+	<_!>2 \bassFigureExtendersOn q8 \bassFigureExtendersOff <8 6-> <7 5> <6- 4>
+	\bo <[7] _!>2 \bassFigureExtendersOn \bc q8 \bassFigureExtendersOff <7 5> <6- 4> <5 3>
+	<6- 4>4 \bo <[6]> \bassFigureExtendersOn \bc q8 \bassFigureExtendersOff <8 6-> <7 5> <6- 4>
+	<5 3> \bo <[8 6-]> \bc <[7 5]> <6- 4> <5 3>2 \bassFigureExtendersOn
+	q4 \bassFigureExtendersOff r2. %30
+	r1
+	r4. \bo <[6]>8 <9>4 \bc <[7]>
+	<3> \bo <[6 5]>4. \bc <[6 \l]>8 <6 4> <7 3>
+	r4. <[6]>8 r4 <[4 _-]>
+	r <[4 _-]> r8 \bo <6 [5]>4 \bassFigureExtendersOn <6 5>16 \bc <6 [5]> \bassFigureExtendersOff %35
+	r4 <6\\ 4 3>2 <6 _!>4
+	r <4 3>2 q4
+	<3>8 <[4 2]> <6> <6 [5-]> r <4 2> <6> <6 [5-]>
+	r <4 2> <6> <6 [5-]> r <6> <6 4> <7 3>
+	r4 <_->2. %40
+	r4. <_->8 \bo <[9 4-]> \bc <[8 _-]> <_->4
+	r1
+	r
+	r4 <_->2.
+	r4 <6 5>2. %45
+	\bo <[4 \l \l]>8 <_-> <8 6 _-> \bc <[7- 5 \t]> <6- 4>4 <5 _+>8 <\t \t>
+	<_->1
+	r4. <_->8 \bo <[9 4]> \bc <[8 _-]> <_->4
+	r1
+	r %50
+	r4 <_->2.
+	r4 <4!>2.
+	<6>4 \bo <[8 6 _-]>8 \bc <[7- 5 \t]> <6- 4>4 <7 _!>
+	<_->1
+	r4. <_->8 \bo <[9 4-]> \bc <[8 _-]> <_->4 %55
+	r1
+	r
+	r4 <_->2.
+	r4 <4!>2.
+	r4 <6>2. %60
+	<6\\ [5-]>2 \bo <[6- 4]>4 \bc <[5 _!]>
+	<_!>8 <[6]> <6> <3> q <6>
+	<[7 4 2]> <6 5> <3> q <[6]> <6 5>
+	<3> q \bo <[6 \l]> <9 4> \bc <[6 5]> <8 3>
+	\bo <[6]> \bc q <6 [5]> <3> q <6> %65
+	<7 [4 2]> <6 5> <3> q <[6]> <6 5>
+	<3> q <[6]> <[7 4] 2> <6 5> <3>
+	\bo <[6]> \bc q <6 [5]> <3> q <[6]>
+	<7 [4]> <6 5> <3> q4 <6>8
+	<7 [4]> <6 5> <3> q4 <[6]>8 %70
+	<7 [4]> <6 5> <3> <6> <6 4> <7 3>
+	r2.
+	r4 \bo <[6]>8 <5> <6> \bc <[7]>
+	r2.*3 %76
+	r4 <6>8 <5> <6> <[7]>
+	<3>4. <6 5->
+	<3> <6 4>
+	<6\\> <6 5!> %80
+	r <5 3>
+	<6 [5]> <7>
+	<8 3>4. <6 4>4 <7- 5>8
+	<5 3>2.
+	r %85 FINIS
+}

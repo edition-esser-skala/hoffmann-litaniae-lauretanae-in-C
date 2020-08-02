@@ -287,3 +287,96 @@ CausaViolinoII = {
 		as( b c b) as( b c b) as4 r\fermata \bar "|." %113 finis
 	}
 }
+
+ReginaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoRegina
+		c4\f f16 e d c g'8 g g a16 h
+		c8. c,16 c8 c'\p h4. a8
+		g4. f8 e4 d8 g,
+		c8. d16 e8 e'\f d16 h a g f a h c
+		h g f e d f g a g e f c h d e f %5
+		\appoggiatura f e8. d16 c8 c'\p h g a d,
+		g8. a16 h8 e\f d16 g fis g a c, h a
+		\appoggiatura c h8. c16 d8 h,\p c4 d
+		e fis g8 c, d d
+		g,4 r8 d''\f e16 g fis e fis a g fis %10
+		g h a g a c h a h g e c h8 a
+		g8 d16 d d d d d d d d d d d d d
+		d d d d d d d d d d d d d d d d
+		d g g g g g g g g g g g g g g g
+		g g g g g g g g g8 c16 a g8 fis %15
+		g4. gis8\p a4. cis8
+		d16\f a a a a a a a a a a a a a a a
+		a4\p f8 fis g4. h8
+		c16\f g g g g g g g g g g g g g g g
+		c,8. d16 e f g e c8 f16 g a g fis? e %20
+		d h c d e f g e c8 f16 g a g fis? e
+		d8 g16 as g f es d c4\p \appoggiatura f16 es8 d16 c
+		g'8 g g g g4 f
+		f es es d
+		d c c2\trillE %25
+		h4 r r8 es'16( g, d' g, c g)
+		d'4 r r8 d16( g, c g h g)
+		c4 r r8 es16( g, d' g, c g)
+		h8 g16 g, f' g, es' g, d'8 <g g,> q q
+		\once \slurDashed q4.( e!8) f4 g %30
+		a h c8 f, g g,
+		c4 r8 g'\f a16 c h a h d c h
+		c e d c d f e d e c a f e8 d
+		c16 c c c c c c c c c c c c c c c
+		c c c c c c c c c8 d16 d d d d d %35
+		d d d d d d d d d g g g g g g g
+		g g g g g g g g g g g g g g g g
+		g8 c,16 c c c c c c c c c c c c c \noBreak
+		c c c c c c c c c8 f16 d c8 h \bar "|"
+		\tempoAgnus c4 es8 es es4 es \noBreak %40
+		r r8 es \appoggiatura g f4 es
+		r2 r4 r8 es
+		\appoggiatura es d4. c8
+		c h r4
+		r16 d'(\p cis d) es( d cis d) r d,(\f cis d) es( d cis d)
+		r d'(\p cis d) es( d cis d) r d,(\f cis d) es( d cis d) %45
+		r b'( a b) r b( a g) r d( c b) r a( b c)
+		b4 b8 b b4 b
+		c g'8 b, \appoggiatura d c4 b
+		r2 r4 r8 b'
+		\appoggiatura b a4. g8 g fis r4 %50
+		r16 d'(\p cis d) es( d cis d) r d,(\f cis d) es( d cis d)
+		r f'!(\p e f) g( f e f) r f,(\f e f) g( f e f)
+		r c'( h c) r c( h c) r g( f es) r d( es f)
+		es4 es8 es es4 es
+		r r8 es \appoggiatura g f4 es %55
+		r2 r4 r8 es'
+		\appoggiatura es d4. c8 c h r4
+		r16 g'(\p fis g) as( g fis g) r g,(\f fis g) as( g fis g)
+		r c(\p h! c) des( c h c) r c,(\f h c) des( c h c )
+		r c'(\p h c) des( c h c) r c,(\f h c) des( c h c) \noBreak %60
+		r c'( h c) d( c h c) c4\trill h\fermata \bar "||"
+		\time 6/8 \tempoMiserere c,16\p c' e c h g c c, f c e c \noBreak
+		d c h g c e g a h g fis d
+		g g, c' g h g a g fis d g f
+		e c' e c h g c c, f c e c %65
+		d c h g c e g h a g fis d
+		g g, c' g h g a g fis d g f
+		e c' e c h g c c, f c e c
+		d c h g c e f c f c e c
+		d c h g c e f\f c f c e c %70
+		d c h g c e f d g f g g,
+		c8 r e'~\p e( dis d)
+		h( c) g\f a4 f8
+		e r e'~\p e( dis d)
+		h( c) e,~ e( dis d) %75
+		h( c) e'~ e( dis d)
+		h( c) g\f a4 f8
+		r16 e e e e e r g g g g g
+		r c, c c c c r e e e e e
+		r d d d d d d d' d d d d %80
+		c c c c c c c c c c c c
+		c c c c c c h h h h h h
+		c8 e,\p e f4 g8
+		f2.
+		e\fermata \bar "|." %85 FINIS
+	}
+}

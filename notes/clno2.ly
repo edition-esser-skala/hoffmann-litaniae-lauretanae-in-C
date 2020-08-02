@@ -163,3 +163,78 @@ CausaClarinoII = {
 		R1\fermataMarkup \bar "|." %113 finis
 	}
 }
+
+ReginaClarinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoRegina
+		c4\f e g r
+		R1*2
+		r4 r8 c, g'4 r
+		r2 r4 r8 g %5
+		c,4 c8 r r2
+		r4 r8 c' d4 d8 d
+		d4 r r2
+		R1
+		r4 r8 g, g4 d' %10
+		d r r d8 d
+		g,4 r8 d' d4 d
+		d d d d
+		g, g8 g g2
+		g4 g g d'8 d %15
+		g,4 r r2
+		d'4 e d e
+		d r r2
+		c4 g c g
+		c r r2 %20
+		R1*11 %31
+		r4 r8 c, c4 r
+		r4 r8 g' c4. g8
+		e4 r8 c c4 c8 c
+		c2 c4 r8 d' %35
+		d2 d4 r8 g,
+		c4 g c g
+		c c,8 c c2 \noBreak
+		c c4 c'8 g \bar "|"
+		\tempoAgnus c,4 c8 c c4 c \noBreak %40
+		r r8 c c4 c
+		R1
+		r4 r8 c g' g r4
+		r g8 g g4 g
+		r d'8 d d4 d %45
+		r2 d4. d8
+		g,4 g8 g g4 g
+		r r8 g c,4 g'
+		R1
+		r4 r8 g d'4 r %50
+		r g,8 g g4 g
+		r g8 g g4 g
+		r2 g4. g8
+		c,4 c8 c c4 c
+		r r8 c c4 c %55
+		R1
+		r4 r8 c g' g r4
+		r c,8 c c4 c
+		r c8 c c4 c
+		r c8 c c4 c \noBreak %60
+		r r8 c g'2\fermata \bar "||"
+		\time 6/8 \tempoMiserere R2.*6 %67
+		c4 g8 e4 r8
+		g4 c8 r c, c
+		c4 c8 r c c %70
+		c4 c8 d'[ c g]
+		e r r r4 r8
+		r4 r8 r4 g8
+		e r r r4 r8
+		R2.*2 %76
+		r4 r8 r4 g8
+		c,4 r8 c4 r8
+		c4 r8 r4 r8
+		d'4. g, %80
+		c c
+		c g
+		e8 c\p c c4 c8
+		c2.
+		c\fermata \bar "|." %85 FINIS
+	}
+}

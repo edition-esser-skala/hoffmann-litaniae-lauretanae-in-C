@@ -90,3 +90,63 @@ CausaTimpani = {
 		R1\fermataMarkup \bar "|."
 	}
 }
+
+ReginaTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoRegina
+		c2\f g4 r
+		R1*3
+		r2 r4 r8 g %5
+		c4 r r2
+		R1*3
+		r4 r8 g g4 g8 g %10
+		g4 r r2
+		R1*2
+		g4 g8 g g4 g8 g
+		g4 g8 g g4 r %15
+		R1*3
+		c4 g c g
+		c r r2 %20
+		R1*11 %31
+		r2 c4 r
+		r2 c4 g8 g16 g
+		c4 r c c8 c
+		c2 c4 r %35
+		R1
+		g4 g8 g g4 g8 g
+		c4 c8 c c c c c \noBreak
+		c4 c8 c c4 g8 g \bar "|"
+		\tempoAgnus c4 c8 c c4 c \noBreak %40
+		r r8 c c4 c
+		R1
+		r4 r8 c g4 r
+		R1*10 %53
+		r4 c8 c c4 c
+		r r8 c c4 c %55
+		R1
+		r4 r8 c g4 r
+		r c8 c c4 c
+		r c8 c c4 c
+		r c8 c c4 c \noBreak %60
+		r r8 c g2\fermata \bar "||"
+		\time 6/8 \tempoMiserere R2.*6 %67
+		c4 g8 c4 r8
+		g4 c8 r c c
+		c4 c8 r c c %70
+		c4 c8 r r g
+		c r r r4 r8
+		r4 r8 r4 g8
+		c r r r4 r8
+		R2.*2 %76
+		r4 r8 r4 g8
+		c4 r8 c4 r8
+		c4 r8 r4 r8
+		r4 r8 g4. %80
+		c c
+		c g
+		c8 c\p c c4 c8
+		c2.
+		c\fermata \bar "|." %85 FINIS
+	}
+}

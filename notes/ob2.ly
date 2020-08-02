@@ -264,3 +264,92 @@ CausaOboeII = {
 		f4 f f r\fermata \bar "|." %113 finis
 	}
 }
+
+ReginaOboeII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoRegina
+		c'4\f f16 e d c g'8 g g a16 h
+		c8. c,16 c8 r r2
+		R1
+		r4 r8 e d4. c8
+		h4. a8 g4. f8 %5
+		\appoggiatura f16 e8.-\critnote d16 c8 r r2
+		r4 r8 e' d g a c,
+		\appoggiatura c16 h8. c16 d8 r r2
+		R1
+		r4 r8 d e4 fis %10
+		g a g8 c,16 a g8 fis
+		g d d d d2
+		d4. d8 d4 d
+		g g8 g g2
+		g g8 c16 a g8 fis %15
+		g4 r r2
+		a4 a a a
+		a r r2
+		g4 g g2
+		g4 g' g f16 e d c %20
+		h4 g' g f16 e d c
+		h4 r r2
+		R1*3 %25
+		r2 r8 es\pE d c
+		d4 r r8 d c h
+		c4 r r8 g' f es
+		d es d c h4 r
+		R1*2 %31
+		r4 r8 g\fE a4 h
+		c d e16 c a f e8 d
+		c c c c c2
+		\once \tieDashed c~ c8 d d d %35
+		\once \tieDashed d2~ d8 g g g
+		g2 g
+		g8 c c c c2 \noBreak
+		c c8 f16 d c8 h \bar "|"
+		\tempoAgnus c4 r r r8 es \noBreak %40
+		\appoggiatura g f4 es r r8 es
+		\appoggiatura es d4. c8 c h r4
+		R1
+		r4 g'8 g g4 g
+		r a8 a a4 a %45
+		g8 d c b b4 a\trill
+		b r r r8 b
+		\appoggiatura d c4 b r r8 b
+		\appoggiatura b a4. g8 g fis r4
+		R1 %50
+		r4 d8 d d4 d
+		r d8 d d4 d
+		es8 es' d c c4 h\trill
+		c r r r8 es
+		\appoggiatura g f4 es r r8 es %55
+		\appoggiatura es d4. c8 c h r4
+		R1
+		r4 g8 g g4 g
+		r g8 g g4 g
+		r as8 as as4 as \noBreak %60
+		es8 es es es es4\trill d\fermata \bar "||"
+		\time 6/8 \tempoMiserere e'!4 d8 c a' g \noBreak
+		\appoggiatura g f4 e8 r d c
+		h c h h a g
+		g4 g8 g a16 h c8 %65
+		c h c r4 r8
+		R2.
+		e4 d8 c a' g
+		\appoggiatura g f4 e8 r c c
+		c4. c4 c8 %70
+		c4. \appoggiatura g16 f8 e d
+		e4 r8 r4 r8
+		r4 g8 a4 f8
+		e4 r8 r4 r8
+		r4 e'8~\p e( dis d) %75
+		\once \slurDashed h( c) r r4 r8
+		r4 g8\f a4 f8
+		e4. g
+		f e
+		d d %80
+		c c'
+		c h
+		c8 c\p c c4 c8
+		c2.
+		c\fermata \bar "|." %85 FINIS
+	}
+}

@@ -659,6 +659,9 @@ tocLabel = #(define-music-function
 
 tempoKyrie = \tempoMarkup "Allegro moderato"
 tempoCausa = \tempoMarkup "Allegro"
+tempoRegina = \tempoMarkup "Allegro"
+	tempoAgnus = \tempoMarkup "Adagio"
+	tempoMiserere = \tempoMarkup "Allegro moderato"
 
 
 \include "notes/ob1.ly"

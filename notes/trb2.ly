@@ -250,3 +250,91 @@ CausaTromboneII = {
 		c as as r\fermata \bar "|." %113 finis
 	}
 }
+
+ReginaTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \tempoRegina
+		c,4\fE f16 e d c g'8 g g a16 h
+		c8. c,16 c8 r r2
+		R1
+		r2 g'4. a8
+		h2 h4 h8 h %5
+		c8. d16 e8 r r2
+		r4 r8 e d4 d8 d
+		d4 d8 r r2
+		R1
+		r4 r8 g, g4 a %10
+		h d d8 e d4
+		d r8 fis,? g4 a8 a
+		g4 a g a
+		d, e8 f e d e f
+		e d e f e e d4 %15
+		d r r2
+		d'4 cis d cis
+		d r r2
+		c!4 h c h
+		c c c2 %20
+		d4 c c2
+		d4 r r2
+		r f,4\p b16 as g f
+		c'8 c c c c4 h
+		c c8 b as2 %25
+		g4 r r8 g g4
+		g r r8 g g g
+		g4 r r8 g g g
+		g g g4 g r
+		R1*2 %31
+		r4 r8 c,\f c4 d
+		e g g8 a g4
+		g r8 e f4 g8 g
+		f4 g f a %35
+		g8 g a8. a16 g4 d'
+		c d8 d c c d8. d16
+		c8 g a b a g a b \noBreak
+		a g a b a a g4 \bar "|"
+		\tempoAgnus c4 r r r8 c \noBreak %40
+		f,4 c' r r8 c
+		f4. fis8 g g r4
+		R1
+		r4 g,8 g g4 g
+		r a8 a a4 a %45
+		g8 g es es d4. d8
+		d4 r r r8 g'
+		c,4 g' r r8 g,
+		c4. cis8 d d r4
+		R1 %50
+		r4 g, g g
+		r g g g
+		g as8 as g4. g8
+		g4 r r r8 c
+		f,4 c' r r8 c %55
+		f4. fis8 g g r4
+		R1
+		r4 c,8 c c4 c
+		r c8 c c4 c
+		r c8 c c4 c \noBreak %60
+		c8 c c c c4 h\fermata \bar "||"
+		\time 6/8 \tempoMiserere R2.*3
+		e4 d8 c a' g %65
+		g f e r d c
+		h c h h a g
+		g4 g8 g a16 h c8
+		a g g r a16 h c8
+		a g g r a16 h c8 %70
+		a g g f e d
+		e4 r8 r4 r8
+		r4 c'8 a4 g8
+		g4 r8 r4 r8
+		R2.*2 %76
+		r4 c8 a4 g8
+		g4. \once \tieDashed c~
+		c c
+		c g %80
+		g \once \tieDashed a~
+		a g
+		g8 g\p g a4 b8
+		a2.
+		g\fermata \bar "|." %85 FINIS
+	}
+}

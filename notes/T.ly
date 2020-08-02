@@ -20,7 +20,7 @@ KyrieTenoreNotes = {
 		\clef "treble_8"
 		\key c \major \time 6/8 \autoBeamOff \tempoKyrie
 		R2.*18 %18
-		\mvTr c,4\fE^\tuttiE c8 c4 f8
+		c,4\fE c8 c4 f8
 		g4. g4 g8 %20
 		a4( c8) h([ c)] d
 		d4. c4 r8
@@ -260,7 +260,7 @@ CausaTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key f \major \time 4/4 \autoBeamOff \tempoCausa
-		\mvTr c,4\fE^\tutti c r8 c c c
+		c,4\fE c r8 c c c
 		c8. c16 c4 r8 c c c
 		c8. c16 c4 r2
 		r8 c' c4 c8 r r4
@@ -447,13 +447,174 @@ CausaTenoreLyrics = \lyricmode {
 	bis. %113 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-%
-% 	}
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+ReginaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoRegina
+		c,4\fE f16([ e)] d c g'8 g g a16([ h)]
+		c4 c,8 r r2
+		R1
+		r2 g'4.( a8)
+		h2 h4 h8 h %5
+		c8.([ d16)] e8 r r2
+		r4 r8 e d d d d16 d
+		d4 d8 r r2
+		R1
+		r4 r8 g, g4 a %10
+		h d d8 e d4
+		d r8 fis, g4 a8 a
+		g g16 g a8 a g4 a
+		d^\critnote e8 f e d e f
+		e d e f e e d4 %15
+		d r r2
+		d8 d16 d cis4 d8 d cis4
+		d r r2
+		c!8 c16 c h4 c8 c h4
+		c c c2 %20
+		d4 c c2
+		d4 r r2
+		r f,4\p b?16([ as)] g f
+		c'8 c c c c4 h
+		c4 c8 b as2 %25
+		g4 r r8 g8 g4
+		g r r8 g g4
+		g r r8 g g4
+		g8 g g4 g r
+		R1*2 %31
+		r4 r8 c,\fE c4 d
+		e g g8 a g4^\critnote
+		g r8 e f4 g8 g
+		f f g8. g16 f4 a %35
+		g8 g a8. a16 g4 d'
+		c d8 d c c d8. d16
+		c8 g a b a g a b \noBreak
+		a g a b a a g4 \bar "|"
+		\tempoAgnus g g8 g g4 g \noBreak %40
+		r4 r8 c c4 c
+		r2 r4 r8 c
+		as4. as8 g g r4
+		r g8 g g4 g
+		r a8 a a4 a %45
+		g8 g es es d4. d8
+		d4 d'8^\critnote d d4 d
+		r r8 g g4 g
+		r2 r4 r8 g
+		es4. es8 d d r4 %50
+		r g, g g
+		r g g g8 g
+		g4 as8 as g4. g8
+		g4 g8 g g4 g
+		r r8 c c4 c %55
+		r2 r4 r8 c
+		as4. as8 g g r4
+		r c8 c c4 c
+		r c8 c c4 c
+		r c8 c c4 c \noBreak %60
+		c8 c c c c4 h\fermata \bar "||"
+		\time 6/8 \tempoMiserere R2.*3
+		e4 d8 c([ a')] g %65
+		g([ f)] e r d c
+		h([ c)] h h([ a)] g
+		g4 g8 g([ a16 h)] c8
+		a([ g)] g r a16([ h)] c8
+		a([ g)] g r a16([ h)] c8 %70
+		a([ g)] g f([ e d)]
+		e4 r8 r4 r8
+		r4 c'8(\fE a4 g8)
+		g4 r8 r4 r8
+		R2.*2 %76
+		r4 c8(\fE a4 g8)
+		g4. \once \tieDashed c~
+		c c
+		c g %80
+		g \once \tieDashed a~
+		a g
+		g8 g\pE g a4 b8
+		a2.
+		g\fermata \bar "|." %85 FINIS
+	}
+}
+
+ReginaTenoreLyrics = \lyricmode {
+	Re -- gi -- na, re -- gi -- na An -- ge --
+	lo -- rum,
+
+	o --
+	ra, o -- ra pro %5
+	no -- bis,
+	re -- gi -- na Pa -- tri -- ar --
+	cha -- rum,
+
+	o -- ra, o -- %10
+	ra, o -- ra pro no --
+	bis, re -- gi -- na, re --
+	gi -- na A -- po -- sto -- lo -- rum,
+	o -- ra, o -- ra, o -- ra, o --
+	ra, o -- ra, o -- ra pro no -- %15
+	bis,
+	o -- ra pro no -- bis, pro no --
+	bis,
+	o -- ra pro no -- bis, pro no --
+	bis, pro no -- %20
+	bis, pro no --
+	bis,
+	re -- gi -- na, re --
+	gi -- na Con -- fes -- so -- rum,
+	o -- ra pro no -- %25
+	bis, pro no --
+	bis, pro no --
+	bis, pro no --
+	bis, pro no -- bis,
+
+	o -- ra, o -- %32
+	ra, o -- ra pro no --
+	bis, re -- gi -- na San --
+	cto -- rum o -- mni -- um, San -- %35
+	cto -- rum o -- mni -- um, re --
+	gi -- na San -- cto -- rum o -- mni --
+	um, o -- ra, o -- ra, o -- ra, o --
+	ra, o -- ra, o -- ra pro no --
+	bis. A -- gnus De -- i, %40
+	qui tol -- lis
+	pec --
+	ca -- ta mun -- di:
+	Par -- ce no -- bis,
+	par -- ce no -- bis, %45
+	par -- ce no -- bis, Do -- mi --
+	ne. A -- gnus De -- i,
+	qui tol -- lis
+	pec --
+	ca -- ta mun -- di: %50
+	Ex -- au -- di,
+	ex -- au -- di, ex --
+	au -- di nos, Do -- mi --
+	ne. A -- gnus De -- i,
+	qui tol -- lis %55
+	pec --
+	ca -- ta mun -- di:
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re,
+	mi -- se -- re -- re, %60
+	mi -- se -- re -- re no -- bis,
+
+	mi -- se -- re -- re %65
+	no -- bis, mi -- se --
+	re -- re no -- bis,
+	mi -- se -- re -- re
+	no -- bis, mi -- se --
+	re -- re, mi -- se -- %70
+	re -- re no --
+	bis,
+	no --
+	bis,
+
+	no -- %77
+	bis, mi --
+	se --
+	re -- re %80
+	no -- _
+	_
+	bis, mi -- se -- re -- re
+	no --
+	bis. %85 FINIS
+}

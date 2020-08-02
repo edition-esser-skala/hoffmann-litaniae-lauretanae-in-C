@@ -163,3 +163,78 @@ CausaClarinoI = {
 		R1\fermataMarkup \bar "|." %113 finis
 	}
 }
+
+ReginaClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoRegina
+		c'4\f e g r
+		R1*2
+		r4 r8 e d4 r
+		r2 r4 r8 d %5
+		e8. d16 c8 r r2
+		r4 r8 e \pa d4 d8 d
+		d4 \pd r r2
+		R1
+		r4 r8 d e4 fis %10
+		g r r \pa d8 d \pd
+		d4 r8 d d4 d
+		d d d d
+		g g8 g g2
+		g4 g g \pa d8 d \pd %15
+		d4 r r2
+		f4 g f g
+		f r r2
+		e4 f e f
+		e r r2 %20
+		R1*11 %31
+		r4 r8 c c4 r
+		r r8 g' g4 e8[ d]
+		c4 r8 c c4 c8 c
+		c2 c4 r8 d %35
+		d2 d4 r8 d
+		e4 f e f
+		e c8 c c4 c \noBreak
+		c2 c4 e8 d \bar "|"
+		\tempoAgnus c4 c8 c c4 c \noBreak %40
+		r r8 c c4 c
+		R1
+		r4 r8 c g' g r4
+		r d8 d d4 d
+		r d8 d d4 d %45
+		r2 d4 d8[ d]
+		d4 g8 g g4 g
+		r r8 g g4 g
+		R1
+		r4 r8 \pa g, d'4 \pd r %50
+		r d8 d d4 d
+		r d8 d d4 d
+		r2 g4. g8
+		g4 c,8 c c4 c
+		r r8 c c4 c %55
+		R1
+		r4 r8 c g' g r4
+		r c,8 c c4 c
+		r c8 c c4 c
+		r c8 c c4 c \noBreak %60
+		r r8 fis g2\fermata \bar "||"
+		\time 6/8 \tempoMiserere R2.*6 %67
+		e4 d8 c4 r8
+		\appoggiatura g'8 f4 e8 r c c
+		c4 c8 r c c %70
+		c4 c8 \appoggiatura g'16 f8 e d
+		c r r r4 r8
+		r4 r8 r4 d8
+		c r r r4 r8
+		R2.*2 %76
+		r4 r8 r4 d8
+		c4 r8 c4 r8
+		c4 r8 r4 r8
+		\pao d4. d %80
+		e e
+		d d
+		c8 c\p c c4 c8
+		c2.
+		c\fermata \bar "|." %85 FINIS
+	}
+}

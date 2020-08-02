@@ -20,7 +20,7 @@ KyrieSopranoNotes = {
 		\clef treble
 		\key c \major \time 6/8 \autoBeamOff \tempoKyrie
 		R2.*18 %18
-		\mvTr e4\fE^\tuttiE f8 g([ a)] h
+		e4\fE f8 g([ a)] h
 		c4. c4 cis8 %20
 		\once \tieDashed d4.~ d8 e f
 		f4. e4 r8
@@ -274,7 +274,7 @@ CausaSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 4/4 \autoBeamOff \tempoCausa
-		\mvTr f4\fE^\tuttiE f r8 f g a
+		f4\fE f r8 f g a
 		a8. g16 g4 r8 g a b
 		b8. a16 a4 r8 c b a
 		g4.( a16[ b)] a8 a g f
@@ -461,13 +461,180 @@ CausaSopranoLyrics = \lyricmode {
 	bis. %113 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% SopranoLyrics = \lyricmode {
-%
-% }
+ReginaSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoRegina
+		c4\fE f16([ e)] d c g'8 g g a16([ h)]
+		c4 c,8 r r2
+		R1
+		r4 r8 e' d4. c8
+		h4. a8 g4. f8 %5
+		\appoggiatura f e8.([ d16)] c8 r r2
+		r4 r8 e' d^\critnote g a c,16 c
+		\appoggiatura c h8.([ c16)] d8 r r2
+		R1
+		r4 r8 d e4 fis %10
+		g a g8 e16([ c)] h8([ a)]
+		g d' d d d4. d8
+		d d16 d d8 d d4 d
+		h c8 d e h c d
+		e h c d e c h([ a)] %15
+		g4 r r2
+		f'!8 f16 f g4 f8 f g4
+		f r r2
+		e8 e16 e f4 e8 e f4
+		e g g( f16[ e d c)] %20
+		h4 g' g( f16[ e d c)]
+		h4 r r2
+		c,4\p f16([ es)] d c as'4 as
+		g g f f
+		es es8 es es2 %25
+		d4 r r8 g f([ es)]
+		f4 r r8 f es([ d)]
+		es4 r r8 es' d([ c)]
+		h g f([ es)] d4 r
+		R1*2 %31
+		r4 r8 g\fE a4 h
+		c d e16([ c)] a([ f)] e8([ d)]
+		c c' c4 c8 c c c
+		c4. c8 c d d d16 d %35
+		d8 d d8. d16 d8 g g4
+		g8 g g g g8. g16 g4
+		e f8 g a e f g \noBreak
+		a e f g a f e([ d)] \bar "|"
+		\tempoAgnus c4 c8 c c4 c \noBreak %40
+		r r8 g \appoggiatura b? as4 g
+		r2 r4 r8 g
+		\appoggiatura g f4. es8 es d d d
+		b'4 b r d,8 d
+		c'4 c r d,8 d %45
+		\appoggiatura c' b4 a8([ g)] g4( fis8.)\trill fis16
+		g4 g8 g g4 g
+		r r8 d' \appoggiatura f es4 d
+		r2 r4 r8 d
+		\appoggiatura d c4. b8 b8 a a4 %50
+		b b r b
+		h h r h
+		c8([ g)] f es es4( d8.)\trill d16
+		c4 c'8 c c4 c
+		r r8 g \appoggiatura b? as4 g %55
+		r2 r4 r8 g
+		\appoggiatura g f4. es8 es d d' d
+		es4 es r es8 es
+		e4 e r e8 e
+		f4 f r f8 f \noBreak %60
+		fis4. fis8 g4 g\fermata \bar "||"
+		\time 6/8 \tempoMiserere e!4 d8 c([ a')] g \noBreak
+		g([ f)] e r d c
+		h([ c)] h h([ a)] g
+		g4 g8 g([ a16 h)] c8 %65
+		c([ h)] c r4 r8
+		R2.
+		e4 d8 c([ a')] g
+		g([ f)] e r a g
+		\appoggiatura g f4 e8 a4 g8 %70
+		\appoggiatura g f4 e8 \appoggiatura e16 d8([ c h)]
+		c r g'~\pE g[ fis] f
+		dis e \once \tieDashed c~\fE c[ d h]
+		c4 r8 r4 r8
+		R2. %75
+		r4 g'8~\pE g[ fis] f
+		dis e \once \tieDashed c~\fE c[ d h]
+		c4. b(
+		a) g
+		fis f %80
+		e e'
+		d2.\trill
+		c8 c\pE c c4 c8
+		c2.
+		c\fermata \bar "|." %85 FINIS
+	}
+}
+
+ReginaSopranoLyrics = \lyricmode {
+	Re -- gi -- na, re -- gi -- na An -- ge --
+	lo -- rum,
+
+	o -- ra, o --
+	ra, o -- ra pro %5
+	no -- bis,
+	re -- gi -- na Pa -- tri -- ar --
+	cha -- rum,
+
+	o -- ra, o -- %10
+	ra, o -- ra pro no --
+	bis, re -- gi -- na Pro -- phe --
+	ta -- rum, o -- ra pro no -- bis,
+	o -- ra, o -- ra, o -- ra, o --
+	ra, o -- ra, o -- ra pro no -- %15
+	bis,
+	o -- ra pro no -- bis, pro no --
+	bis,
+	o -- ra pro no -- bis, pro no --
+	bis, pro no -- %20
+	bis, pro no --
+	bis,
+	re -- gi -- na, re -- gi -- na
+	Con -- fes -- so -- rum,
+	o -- ra pro no -- %25
+	bis, pro no --
+	bis, pro no --
+	bis, pro no --
+	bis, pro no -- bis,
+
+	o -- ra, o -- %32
+	ra, o -- ra pro no --
+	bis, re -- gi -- na San -- cto -- rum
+	o -- mni -- um, re -- gi -- na San -- %35
+	cto -- rum o -- mni -- um, re -- gi --
+	na San -- cto -- rum o -- mni -- um,
+	o -- ra, o -- ra, o -- ra, o --
+	ra, o -- ra, o -- ra pro no --
+	bis. A -- gnus De -- i, %40
+	qui tol -- lis
+	pec --
+	ca -- ta mun -- di: Par -- ce
+	no -- bis, par -- ce
+	no -- bis, par -- ce %45
+	no -- bis, Do -- mi --
+	ne. A -- gnus De -- i,
+	qui tol -- lis
+	pec --
+	ca -- ta mun -- di: Ex -- %50
+	au -- di, ex --
+	au -- di, ex --
+	au -- di nos, Do -- mi --
+	ne. A -- gnus De -- i,
+	qui tol -- lis %55
+	pec --
+	ca -- ta mun -- di: Mi -- se --
+	re -- re, mi -- se --
+	re -- re, mi -- se --
+	re -- re, mi -- se -- %60
+	re -- re no -- bis,
+	mi -- se -- re -- re
+	no -- bis, mi -- se --
+	re -- re no -- bis,
+	mi -- se -- re -- re %65
+	no -- bis,
+
+	mi -- se -- re -- re
+	no -- bis, mi -- se --
+	re -- re, mi -- se -- %70
+	re -- re no --
+	bis, mi -- se --
+	re -- re no --
+	bis,
+	%75
+	mi -- se --
+	re -- re no --
+	bis, mi --
+	se --
+	re -- re %80
+	no -- _
+	_
+	bis, mi -- se -- re -- re
+	no --
+	bis. %85 FINIS
+}
