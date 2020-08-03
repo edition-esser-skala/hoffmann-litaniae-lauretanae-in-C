@@ -4,7 +4,7 @@
 
 
 # change the following variables according to your project
-project = Hofmann_Litaniae_lauretanae_in_C
+project = Hoffmann_Litaniae_lauretanae_in_C
 notes = ob1 ob2 clno1 clno2 trb1 trb2 timp vl1 vl2 S A T B org
 scores = full_score ob1 ob2 trb1 trb2 ottoni vl1 vl2 coro b org
 

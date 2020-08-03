@@ -1,4 +1,4 @@
-# Leopold Hofmann: Litaniae lauretanae in C
+# Giovanni Hoffmann: Litaniae lauretanae in C
 
 Engraving files for LilyPond 2.18.0
 
