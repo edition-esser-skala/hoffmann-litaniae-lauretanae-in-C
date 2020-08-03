@@ -16,10 +16,10 @@
 	\bookpart {
 		\header {
 			number = "1"
-			title = "K Y R I E   E L E I S O N"
+			title = "K Y R I E   E L E I S O N   –   S A N C T A   M A R I A"
 		}
 		\paper { indent = 3\cm }
-		\tocSection "1" "Kyrie eleison"
+		\tocSection "1" "Kyrie eleison – Sancta Maria"
 		\score {
 			<<
 				\new StaffGroup <<
