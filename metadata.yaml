@@ -1,17 +1,18 @@
-composer: Hoffmann, Giovanni
-title: Litaniae lauretanae
-id: (A-Ed G 115)
+composer:
+  last: Hoffmann
+  first: Giovanni
+title: Litaniæ lauretanæ
 genre: litany
-scoring: S, A, T, B (coro), 2 ob, 2 clno (C), a-trb, t-trb, timp (C–G), 2 vl, b, org
+scoring: S, A, T, B (coro), 2 ob, 2 clno (C), 2 trb, timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  B1:
     siglum: A-Ed
     shelfmark: G 115
-    type: manuscript copy
-    date: unknown
     rism: 600038343
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/296.html
-github: hoffmann-litaniae-lauretanae-in-C
+    license: public domain
+    principal: true
 imslp: Litaniae_lauretanae_(Hoffmann,_Giovanni)
-notes:
-
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
